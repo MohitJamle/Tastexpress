@@ -201,6 +201,7 @@
             proposition revolves on Safety, Convenience, Hygiene, Value for money.
           </p>
         </div>
+
         <div class="comp3_brand">
           <div class="comp3_brand_container">
             <div class="comp3_img_box">
@@ -360,7 +361,7 @@
             <div class=" comp8_cardBox">
 
               <div class="a comp8_card">
-                <span class="car1" style="height: 100px; width:100px; margin: auto;display: flex; position: relative;">
+                <span class="car1" style="height: 100px;  width:100px; margin: auto;display: flex; position: relative;">
                   <img style="width:100%; margin: 0;" src="/Images/clints/clint1.png" alt="">
                 </span>
                 <p>A great place to eat while travelling. Here ,you have the option of south Indian food north Indian
@@ -509,9 +510,18 @@
       speed: 500,
       autoplay: true,
       autoplaySpeed: 5000,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       responsive: [
+        {
+          breakpoint: 1050,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
         {
           breakpoint: 903,
           settings: {
